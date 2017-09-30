@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.geo.gameenginechess.MainActivity">
+
+    <GridView
+        android:id="@+id/chessBoard"
+        android:numColumns="8"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </GridView>
+
+
+    <TextView android:id="@+id/fromTextView"
+        android:layout_width="match_parent"
+        android:maxHeight="200dp"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/unSelectSoldierBtn"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+</LinearLayout>
